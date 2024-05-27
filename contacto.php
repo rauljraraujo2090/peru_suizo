@@ -67,7 +67,7 @@
         </div>
         <div class="row block-9">
           <div class="col-md-6 pr-md-5">
-          	<a href="index.html"><h4 class="mb-4">¿Tienes alguna duda?</h4></a>
+          	<a href=""><h4 class="mb-4">¿Tienes alguna duda?</h4></a>
             <form action="#">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Te llamas">
