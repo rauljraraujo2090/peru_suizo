@@ -175,8 +175,8 @@ $variable12=$_POST['num1'];
           <div class="max-w-[500px] mx-auto bg-primary bg-opacity-5 dark:bg-dark rounded-md p-12 sm:p-[60px]">
             <h3 class="font-bold text-black dark:text-white text-2xl sm:text-3xl mb-3 text-center">Bienvenido
               Administrador</h3>
-            <p class="font-medium text-base text-body-color mb-11 text-center">Login to your account for a faster
-              checkout.</p>
+            <p class="font-medium text-base text-body-color mb-11 text-center">Aqui podremos realizar calculos 
+            </p>
             <button class="w-full flex items-center justify-center p-3 bg-white dark:bg-[#242B51] text-body-color hover:text-primary dark:text-body-color text-base font-medium dark:hover:text-white rounded-md shadow-one dark:shadow-signUp mb-6">
               <span class="mr-3">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -222,7 +222,7 @@ $variable12=$_POST['num1'];
 
               <div class="mb-8 ">
                 <label for="email" class="block text-sm font-medium text-dark dark:text-white mb-3">Ración Alimentaria </label>
-                <input type="text" value="<?php echo $sumarr?>"    placeholder="Resultado" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
+                <input type="text" value="<?php echo $sumarr?>"   disabled readonly placeholder="Resultado" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
               </div>
 
 
