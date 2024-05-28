@@ -39,9 +39,43 @@ echo"<br>";
 	echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
 
 
-	
+}else if($_POST['num1']>=51  &&  $_POST['num1']<=100){
+	$sumarr=$resultado* 0.05;
+	echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
 
-		
+	
+	
+}else if($_POST['num1']>=101  &&  $_POST['num1']<=200){
+	$sumarr=$resultado* 0.03;
+	echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
+
+
+
+
+
+}else if($_POST['num1']>=2001 &&  $_POST['num1']<=300){
+	$sumarr=$resultado* 0.02;
+	echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
+
+
+
+
+}else if($_POST['num1']>=301  &&  $_POST['num1']<=500){
+	$sumarr=$resultado* 0.018;
+	echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
+
+
+
+
+}else if($_POST['num1']>=501  &&  $_POST['num1']<=750){
+	$sumarr=$resultado* 0.015;
+	echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
+
+
+}else if($_POST['num1']>=751  &&  $_POST['num1']<=1000){
+	$sumarr=$resultado* 0.01;
+	echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
+
 	}else{
 
 		echo"no hay datos";
