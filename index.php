@@ -43,7 +43,7 @@
            <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
              <div class="col-md-8 ftco-animate text-center">
                <h1 class="mb-4">Bienvenidos al Cetpro PERÚ SUIZO</h1>
-               <p><a href="../moodle/moodle/login/index.php" target="_blank" class="btn btn-primary px-4 py-3">Aula Virtual</a> <a href="cursos_copy.php" class="btn btn-secondary px-4 py-3">ver Cursos </a></p>
+               <p><a href="../moodle/moodle/login/index.php" target="_blank" class="btn btn-primary px-4 py-3">Aula Virtual</a> <a href="https://perusuizo.com/moodlee/login/index.php" class="btn btn-secondary px-4 py-3">ver Cursos </a></p>
              </div>
            </div>
          </div>
