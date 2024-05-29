@@ -269,7 +269,8 @@ $variable12=$_POST['num1'];
               </div>
             <p class="font-medium text-base text-body-color text-center">
             &copy; ¡Elaborado por ! 
-              <a href="https://www.facebook.com/alexis.torre.144" target="_blank" class="text-primary hover:underline">Raúl Jr </a>
+              <a href="https://www.facebook.com/alexis.torre.144" target="_blank" class="text-primary hover:underline">Raúl Jr & </a>
+              <a href="https://www.facebook.com/kevin.araujopalomino" target="_blank" class="text-primary hover:underline">Jhonatan Araujo</a>
             </p>
           </div>
         </div>
