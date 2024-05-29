@@ -21,26 +21,33 @@ if($resultado!=''){
 }
 echo"<br>";
 echo"<br>";
+
+$sumarr='';
+$mañana='';
 if(isset($_POST['num1']) ) {
 $variable12=$_POST['num1'];
 
  if($variable12>=1  &&  $variable12<=5){
 	$sumarr=$resultado* 0.15;
+  $mañana=$sumarr/2;
 	//echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
 
 }else if($variable12>=6  &&  $variable12<=50){
 	$sumarr=$resultado* 0.1;
+  $mañana=$sumarr/2;
 //	echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
 
 
 }else if($variable12>=51  &&  $variable12<=100){
 	$sumarr=$resultado* 0.05;
+  $mañana=$sumarr/2;
 //	echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
 
 	
 	
 }else if($variable12>=101  &&  $variable12<=200){
-	$sumarr=$resultado* 0.03;
+	$sumarr=$resultado* 0.03;+
+  $mañana=$sumarr/2;
 	//echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
 
 
@@ -49,6 +56,7 @@ $variable12=$_POST['num1'];
 
 }else if($variable12>=2001 &&  $variable12<=300){
 	$sumarr=$resultado* 0.02;
+  $mañana=$sumarr/2;
 	//echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
 
 
@@ -56,6 +64,7 @@ $variable12=$_POST['num1'];
 
 }else if($variable12>=301  &&  $variable12<=500){
 	$sumarr=$resultado* 0.018;
+  $mañana=$sumarr/2;
 	//echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
 
 
@@ -63,11 +72,13 @@ $variable12=$_POST['num1'];
 
 }else if($variable12>=501  &&  $variable12<=750){
 	$sumarr=$resultado* 0.015;
+  $mañana=$sumarr/2;
 	//echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
 
 
 }else if($variable12>=751  &&  $variable12<=1000){
 	$sumarr=$resultado* 0.01;
+  $mañana=$sumarr/2;
 	//echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
 
 	}
@@ -175,9 +186,8 @@ $variable12=$_POST['num1'];
           <div class="max-w-[500px] mx-auto bg-primary bg-opacity-5 dark:bg-dark rounded-md p-12 sm:p-[60px]">
             <h3 class="font-bold text-black dark:text-white text-2xl sm:text-3xl mb-3 text-center">Bienvenido
               Administrador</h3>
-            <p class="font-medium text-base text-body-color mb-11 text-center">Aqui podremos realizar calculos 
-            </p>
-            <button class="w-full flex items-center justify-center p-3 bg-white dark:bg-[#242B51] text-body-color hover:text-primary dark:text-body-color text-base font-medium dark:hover:text-white rounded-md shadow-one dark:shadow-signUp mb-6">
+            
+           <!---- <button class="w-full flex items-center justify-center p-3 bg-white dark:bg-[#242B51] text-body-color hover:text-primary dark:text-body-color text-base font-medium dark:hover:text-white rounded-md shadow-one dark:shadow-signUp mb-6">
               <span class="mr-3">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_95:967)">
@@ -195,7 +205,7 @@ $variable12=$_POST['num1'];
               </span>
               Nuestra Cuenta de Google
 
-            </button>
+            </button>---->
             <div class="flex items-center justify-center mb-8">
               <span class="hidden sm:block max-w-[70px] w-full h-[1px] bg-body-color"></span>
               <p class="w-full px-5 text-body-color text-center text-base font-medium">BIOLOGIA</p>
@@ -222,17 +232,41 @@ $variable12=$_POST['num1'];
 
               <div class="mb-8 ">
                 <label for="email" class="block text-sm font-medium text-dark dark:text-white mb-3">Ración Alimentaria </label>
-                <input type="text" value="<?php echo $sumarr?>"   disabled readonly placeholder="Resultado" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
+                <input type="text" value="<?php echo $sumarr."  KG"?>"   disabled readonly placeholder="Resultado" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
               </div>
 
+
+             
 
                 
+
               </div>
+               <!-----------RACION ALIMENTATARIA EN LA MAÑANA Y EN LA NOCHE ---------->
+
+
+
+               <div class="mb-8">
+                <label for="email" class="block text-sm font-medium text-dark dark:text-white mb-3">R.A. En la mañana</label>
+                <input type="text"aria-label="Disabled input example" value="<?php echo $mañana."  KG"?>"disabled readonly   placeholder="Resultado" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
+              </div>
+
+
+              <div class="mb-8 ">
+                <label for="email" class="block text-sm font-medium text-dark dark:text-white mb-3">R.A. En la tarde</label>
+                <input type="text" value="<?php echo $mañana."  KG"?>"   disabled readonly placeholder="Resultado" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
+              </div>
+
+
+                     <!-----------RACION ALIMENTATARIA EN LA MAÑANA Y EN LA NOCHE ---------->
               <div class="mb-6">
                 <button class="w-full flex items-center justify-center text-base font-medium text-white bg-primary py-4 px-9 hover:shadow-signUp hover:bg-opacity-80 transition duration-300 ease-in-out rounded-md">Calcular Resultado
                 </button>
               </div>
             </form>
+            <div id="AvanzaModal" class="mb-6">
+                <button  class="w-full flex items-center justify-center text-base font-medium text-white bg-primary py-4 px-9 hover:shadow-signUp hover:bg-opacity-80 transition duration-300 ease-in-out rounded-md">Limpiar Calculo
+                </button>
+              </div>
             <p class="font-medium text-base text-body-color text-center">
             &copy; ¡Elaborado por ! 
               <a href="https://www.facebook.com/alexis.torre.144" target="_blank" class="text-primary hover:underline">Raúl Jr </a>
@@ -271,6 +305,17 @@ $variable12=$_POST['num1'];
   </a>
   <script defer src="bundle.js"></script>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vef91dfe02fce4ee0ad053f6de4f175db1715022073587" integrity="sha512-sDIX0kl85v1Cl5tu4WGLZCpH/dV9OHbA4YlKCuCiMmOQIk4buzoYDZSFj+TvC71mOBLh8CDC/REgE0GX0xcbjA==" data-cf-beacon='{"rayId":"88b1c6871e141b25","r":1,"version":"2024.4.1","token":"9a6015d415bb4773a0bff22543062d3b"}' crossorigin="anonymous"></script>
+  <script>
+    jQuery(document).ready(function(){
+ 
+	jQuery('#AvanzaModal').on('hidden.bs.modal', function (e) {
+	    jQuery(this).removeData('bs.modal');
+	    jQuery(this).find('.modal-content').empty();
+	})
+ 
+    })
+</script>
+
 </body>
 
 </html>
