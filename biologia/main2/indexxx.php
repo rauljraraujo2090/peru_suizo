@@ -54,7 +54,7 @@ $variable12=$_POST['num1'];
 
 
 
-}else if($variable12>=2001 &&  $variable12<=300){
+}else if($variable12>200 &&  $variable12<301){
 	$sumarr=$resultado* 0.02;
   $mañana=$sumarr/2;
 	//echo "RACION ALIMENTICIA DIARIA KG: ".$sumarr;
