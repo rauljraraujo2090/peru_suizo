@@ -214,7 +214,7 @@ $variable12=$_POST['num1'];
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="Post">
               <div class="mb-8">
                 <label for="email" class="block text-sm font-medium text-dark dark:text-white mb-3">PESO PROMEDIO GRAMOS </label>
-                <input type="number" name="num1"value="<?php echo $numero12?>" placeholder="Ingrese el peso promedio" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
+                <input min="0" step="0.100" type="number" name="num1"value="<?php echo $numero12?>" placeholder="Ingrese el peso promedio" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
               </div>
               <div class="mb-8">
                 <label for="password" class="block text-sm font-medium text-dark dark:text-white mb-3">CANTIDAD DE PECES
@@ -231,7 +231,7 @@ $variable12=$_POST['num1'];
 
 
               <div class="mb-8 ">
-                <label for="email" class="block text-sm font-medium text-dark dark:text-white mb-3">Ración Alimentaria </label>
+                <label for="email" class="block text-sm font-medium text-dark dark:text-white mb-3">Ración Alimenticia  </label>
                 <input type="text" value="<?php echo $sumarr."  KG"?>"   disabled readonly placeholder="Resultado" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
               </div>
 
