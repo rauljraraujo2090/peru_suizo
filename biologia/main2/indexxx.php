@@ -231,7 +231,7 @@ $variable12=$_POST['num1'];
 
 
               <div class="mb-8 ">
-                <label for="email" class="block text-sm font-medium text-dark dark:text-white mb-3">R.A.D  </label>
+                <label for="email" class="block text-sm font-medium text-dark dark:text-white mb-3">R.A.D KG </label>
                 <input type="text" value="<?php echo $sumarr."  KG"?>"   disabled readonly placeholder="Resultado" class="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-primary" />
               </div>
 
