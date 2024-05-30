@@ -179,7 +179,7 @@ $variable12=$_POST['num1'];
       </div>
     </div>
   </header>
-  <section class="relative overflow-hidden z-10 pt-[180px] pb-[120px]">
+  <section class="relative overflow-hidden z-10 pt-[50px] pb-[50px]">
     <div class="container">
       <div class="flex flex-wrap mx-[-16px]">
         <div class="w-full px-4">
