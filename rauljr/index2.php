@@ -30,6 +30,10 @@
         <link rel="stylesheet" href="assets/css/main.css">
     </head>
     <body>
+<?php 
+
+include('include/header.php');
+?>
 
         <!-- Hero Section Start -->
         <section class="hero-section fix hero-1 bg-cover" style="background-image: url('assets/img/hero/hero-bg.jpg');">
