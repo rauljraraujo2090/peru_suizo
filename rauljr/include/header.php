@@ -313,7 +313,7 @@
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="contact.html">Contacto</a>
+                                                    <a href="contactos.php">Contacto</a>
                                                 </li>
                                             </ul>
                                         </nav>
