@@ -119,21 +119,21 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".9s">
                             <div class="single-footer-widget">
                                 <div class="widget-head">
-                                    <h3>Contact Us</h3>
+                                    <h3>Contactanos</h3>
                                 </div>
                                 <div class="footer-content">
                                     <ul class="contact-info">
                                         <li>
                                             <i class="fas fa-map-marker-alt"></i>
-                                            6391 Elgin St. Celina, USA
+                                            Ayacucho-Perú
                                         </li>
                                         <li>
                                             <i class="fa-solid fa-phone-volume"></i>
-                                            <a href="tel:2086660112">+208-666-0112</a>
+                                            <a href="#">+51 992935508</a>
                                         </li>
                                         <li>
                                             <i class="fa-regular fa-envelope"></i>
-                                            <a href="mailto:infotech@gmail.com">Infotech@gmail.com</a>
+                                            <a href="mailto:infotech@gmail.com">rauljraraujo3000@gmail.com</a>
                                         </li>
                                     </ul>
                                     <a href="contact.html" class="theme-btn hover-white mt-4">
@@ -150,17 +150,17 @@
                 <div class="container">
                     <div class="footer-wrapper d-flex align-items-center justify-content-between">
                         <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
-                            © All Copyright 2024 by <a href="index.html">Infotech</a>
+                        © Todos los derechos de autor 2024 por  <a href="index.html">Raul Jr</a>
                         </p>
                         <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
                             <li>
-                                <a href="contact.html">
-                                    Terms & Condition
+                                <a href="3">
+                                    Terminos & Condiciones
                                 </a>
                             </li>
                             <li>
                                 <a href="contact.html">
-                                    Privacy Policy
+                                    politica de privacidad 
                                 </a>
                             </li>
                         </ul>

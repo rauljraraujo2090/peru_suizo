@@ -9,14 +9,14 @@
         <meta name="author" content="gramentheme">
         <meta name="description" content="Infotek - IT Solution & Technology HTML Template">
         <!-- ======== Page title ============ -->
-        <title>Infotek - IT Solution & Technology HTML Template</title>
+        <title>Contactos</title>
         <!--<< Favcion >>-->
         <link rel="shortcut icon" href="assets/img/favicon.svg">
         <!--<< Bootstrap min.css >>-->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!--<< All Min Css >>-->
         <link rel="stylesheet" href="assets/css/all.min.css">
-        <!--<< Animate.css >>-->
+        <!--<< Animate.css >>-->            
         <link rel="stylesheet" href="assets/css/animate.css">
         <!--<< Magnific Popup.css >>-->
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -224,9 +224,9 @@ include('include/header.php');
                                                                               
                                         </div>
                                         <div class="content">
-                                            <p>Call Us 7/24</p>
+                                            <p>llamanos</p>
                                             <h3>
-                                                <a href="tel:+2085550112">+208-555-0112</a>
+                                                <a href="tel:+2085550112">+51 992 935 508</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -239,9 +239,9 @@ include('include/header.php');
                                             </svg>                      
                                         </div>
                                         <div class="content">
-                                            <p>Make a Quote</p>
+                                            <p>consultar</p>
                                             <h3>
-                                                <a href="mailto:infotech@gmail.com">Infotech@gmail.com</a>
+                                                <a href="rauljraraujo3000@gmail.com">rauljraraujo3000@gmail.com</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -253,9 +253,9 @@ include('include/header.php');
                                             </svg>                    
                                         </div>
                                         <div class="content">
-                                            <p>Location</p>
+                                            <p>Ubicación</p>
                                             <h3>
-                                                4517 Washington ave.
+                                                Ayacucho - Perú.
                                             </h3>
                                         </div>
                                     </div>
@@ -272,7 +272,7 @@ include('include/header.php');
                         </div>
                         <div class="col-lg-6">
                             <div class="contact-content">
-                                <h2>Ready to Get Started?</h2>
+                                <h2>¿Listo Para Comenzar?</h2>
                                 <p>
                                     Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut blandit felis odio in turpis. Quisque rhoncus, eros in auctor ultrices,
                                 </p>
@@ -280,25 +280,25 @@ include('include/header.php');
                                     <div class="row g-4">
                                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                                             <div class="form-clt">
-                                                <span>Your name*</span>
-                                                <input type="text" name="name" id="name" placeholder="Your Name">
+                                                <span>Su Nombre*</span>
+                                                <input type="text" name="name" id="name" placeholder="Su nombre">
                                             </div>
                                         </div>
                                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                                             <div class="form-clt">
-                                                <span>Your Email*</span>
-                                                <input type="text" name="email" id="email" placeholder="Your Email">
+                                                <span>Tu Correo Electrónico*</span>
+                                                <input type="text" name="email" id="email" placeholder="Su correo electrónico">
                                             </div>
                                         </div>
                                         <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                             <div class="form-clt">
-                                                <span>Write Message*</span>
-                                                <textarea name="message" id="message" placeholder="Write Message"></textarea>
+                                                <span>Escribe Un Mensaje*</span>
+                                                <textarea name="message" id="message" placeholder="Escriba el mensaje"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-lg-7 wow fadeInUp" data-wow-delay=".9s">
                                             <button type="submit" class="theme-btn">
-                                                Send Message <i class="fa-solid fa-arrow-right-long"></i>
+                                                Enviar Mensaje<i class="fa-solid fa-arrow-right-long"></i>
                                             </button>
                                         </div>
                                     </div>

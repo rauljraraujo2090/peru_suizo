@@ -6,28 +6,28 @@
                 </div>
                 <div class="txt-loading">
                     <span data-text-preloader="I" class="letters-loading">
-                        I
+                        R
                     </span>
                     <span data-text-preloader="N" class="letters-loading">
-                        N
+                        A
                     </span>
                     <span data-text-preloader="F" class="letters-loading">
-                        F
+                        U
                     </span>
                     <span data-text-preloader="O" class="letters-loading">
-                        O
+                        L
                     </span>
                     <span data-text-preloader="T" class="letters-loading">
-                        T
+                        ,
                     </span>
                     <span data-text-preloader="E" class="letters-loading">
-                        E
+                        J
                     </span>
                     <span data-text-preloader="K" class="letters-loading">
-                        K
+                        R
                     </span>
                 </div>
-                <p class="text-center">Loading</p>
+                <p class="text-center">Cargando</p>
             </div>
             <div class="loader">
                 <div class="row">
@@ -114,10 +114,10 @@
                                 </a>
                             </div>
                             <div class="social-icon d-flex align-items-center">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61558347512713&locale=es_LA"  target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"  target="_blank"></i></a>
+                                <a href="https://www.youtube.com/channel/UCvFbcM5d-ngi9d8_GzscxdQ"  target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"  target="_blank"></i></a>
                             </div>
                         </div>
                     </div>
@@ -141,13 +141,15 @@
                                 <a href="tel:2086660112">+51 904240252</a>
                             </li>
                         </ul>
+                        
                         <div class="top-right">
                             <div class="social-icon d-flex align-items-center">
                                 <span>Siganos:</span>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61558347512713&locale=es_LA"  target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@soy_llados"  target="_blank"><i class="fab fa-tiktok"></i></a>
+                                <a href="https://wa.link/920f43"  target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                <a href="https://www.tiktok.com/@soy_llados"  target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://www.youtube.com/channel/UCvFbcM5d-ngi9d8_GzscxdQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -170,92 +172,14 @@
                                         <nav id="mobile-menu">
                                             <ul>
                                                 <li class="has-dropdown active menu-thumb">
-                                                    <a href="index.html">
+                                                    <a href="index.php">
                                                     Inicio
-                                                    <i class="fas fa-angle-down"></i>
+                                                  
                                                     </a>
-                                                    <ul class="submenu has-homemenu">
-                                                        <li>
-                                                            <div class="homemenu-items">
-                                                                <div class="homemenu">
-                                                                    <div class="homemenu-thumb">
-                                                                        <img src="assets/img/header/home-1.jpg" alt="img">
-                                                                        <div class="demo-button">
-                                                                            <a href="index.html" class="theme-btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a>
-                                                                            <a href="index-one-page.html" class="theme-btn">
-                                                                                <span>One Page</span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="homemenu-content text-center">
-                                                                        <h4 class="homemenu-title">
-                                                                            Home 01
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="homemenu">
-                                                                    <div class="homemenu-thumb mb-15">
-                                                                        <img src="assets/img/header/home-2.jpg" alt="img">
-                                                                        <div class="demo-button">
-                                                                            <a href="index-2.html" class="theme-btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a>
-                                                                            <a href="index-two-page.html" class="theme-btn">
-                                                                                <span>One Page</span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="homemenu-content text-center">
-                                                                        <h4 class="homemenu-title">
-                                                                            Home 02
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="homemenu">
-                                                                    <div class="homemenu-thumb mb-15">
-                                                                        <img src="assets/img/header/home-3.jpg" alt="img">
-                                                                        <div class="demo-button">
-                                                                            <a href="index-3.html" class="theme-btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a>
-                                                                            <a href="index-three-page.html" class="theme-btn">
-                                                                                <span>One Page</span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="homemenu-content text-center">
-                                                                        <h4 class="homemenu-title">
-                                                                            Home 03
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="homemenu">
-                                                                    <div class="homemenu-thumb mb-15">
-                                                                        <img src="assets/img/header/home-4.jpg" alt="img">
-                                                                        <div class="demo-button">
-                                                                            <a href="index-4.html" class="theme-btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a>
-                                                                            <a href="index-four-page.html" class="theme-btn">
-                                                                                <span>One Page</span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="homemenu-content text-center">
-                                                                        <h4 class="homemenu-title">
-                                                                            Home 04
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </li>
+                                                    
                         
                                                 <li>
-                                                    <a href="about.html">Acerca de mi </a>
+                                                    <a href="acerca_de_mi.php">Acerca de mi </a>
                                                 </li>
                                                 <li>
                                                     <a href="news.html">

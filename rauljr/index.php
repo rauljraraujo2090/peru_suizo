@@ -38,7 +38,7 @@ include('include/header.php');
         <!-- Hero Section Start -->
         <section class="hero-section fix hero-1 bg-cover" style="background-image: url('assets/img/hero/hero-bg.jpg');">
             <div class="text-transparent">
-                <h2>Technology</h2>
+                <h2>Tecnología</h2>
             </div>
             <div class="line-shape">
                 <img src="assets/img/hero/line-shape.png" alt="shape-img">
@@ -86,28 +86,22 @@ include('include/header.php');
                 </div>
             </div>
         </section>
-
+       
         <div class="marque-section">
             <div class="marquee-wrapper text-slider">
                 <div class="marquee-inner to-left">
                     <ul class="marqee-list d-flex">
                         <li class="marquee-item">
-                            <span class="text-slider">Business</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">IT Solution</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">Work Process</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">Technology</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">IT Solution</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
+                            <span class="text-slider">Cada</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
+                            <span class="text-slider">línea de</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
+                            <span class="text-slider">código</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
+                            <span class="text-slider">es una </span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
+                            <span class="text-slider">oportunidad</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
 
-                            <span class="text-slider">Business</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">IT Solution</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">Work Process</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">Technology</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">IT Solution</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">Business</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">IT Solution</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">Work Process</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">Technology</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
-                            <span class="text-slider">IT Solution</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
+                            <span class="text-slider">para</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
+                            <span class="text-slider"> transformar</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
+                            <span class="text-slider">el futuro</span><span class="text-slider"><img src="assets/img/star.svg" alt="img"></span>
+                            
                         </li>
                     </ul>
                 </div>
