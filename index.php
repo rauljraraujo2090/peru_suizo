@@ -79,8 +79,7 @@
                        </div>
                        <div class="text order-first">
                          <span class="date">20 de agosto de 2024</span>
-                         <h3><a href="#">Realizamos Taller 2024</a></h3>
-                         <p>Un pequeño río llamado Duden fluye por su lugar y lo abastece con la regelialia necesaria.</p>
+                         <h3><a href="#">Aprenda a mecanografiar a un mínimo de 40 palabras por minuto, con una precisión de 99%</p>
                        </div>
                      </div>
                    </div>

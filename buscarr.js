@@ -34,7 +34,7 @@ const products = [
 
 
     {
-      productName: "Ensamblage, reparación de Computadoras y redes",
+      productName: "Ensamblaje, reparación de Computadoras y redes",
       descripcion: "Nunca dejes de aprender atrevete",
       img: "https://systematic.edu.pe/archivos/curso-ensamblaje-y-mantenimiento-de-computadoras.jpg",
     },
@@ -50,7 +50,7 @@ const products = [
 
 
     {
-      productName: "Las tic aplicadas al proceso de enseñanza - aprendizaje ",
+      productName: "Las TIC aplicadas al proceso de enseñanza - aprendizaje ",
       descripcion: "Nunca dejes de aprender atrevete",
       img: "https://www.ilerna.es/blog/wp-content/uploads/2020/04/tic-en-la-educaci%C3%B3n-infantil.jpg",
     },
@@ -94,7 +94,7 @@ const products = [
 
 
     {
-      productName: "Tic, administración de aulas de innovación pedagógica y plataformas virtuales ",
+      productName: "TIC, administración de aulas de innovación pedagógica y plataformas virtuales ",
       descripcion: "Nunca dejes de aprender atrevete",
       img: "https://cedhex.com/wp-content/uploads/2024/05/1500x844-tic-educacion-posgrado.jpg",
     },

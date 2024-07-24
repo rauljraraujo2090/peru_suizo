@@ -56,10 +56,10 @@
             <p><span>Dirección:</span> Jr.2 de Mayo Nº 155 Interior C</p>
           </div>
           <div class="col-md-3">
-            <p><span>Teléfono:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+            <p><span>Teléfono:</span> <a href="#">919191351</a></p>
           </div>
           <div class="col-md-3">
-            <p><span>Correo Electrónico:</span> <a href="mailto:info@yoursite.com">cetptroperusuizo@gmail.com</a></p>
+            <p><span>Correo Electrónico:</span> <a href="#">cetptroperusuizo@gmail.com</a></p>
           </div>
           <div class="col-md-3">
             <p><span>Sitio Web</span> <a href="#">cetptroperusuizo.com</a></p>
