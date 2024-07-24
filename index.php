@@ -28,6 +28,12 @@
        <link rel="stylesheet" href="css/icomoon.css">
        <link rel="stylesheet" href="css/style.css">
 
+
+
+
+
+       
+
      </head>
 
      <body>
@@ -345,6 +351,9 @@
 
        <?php
         include('include/footer.php');
+        ?>
+        <?php
+        include('whatsap.php');
         ?>
        <!-- loader -->
        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
